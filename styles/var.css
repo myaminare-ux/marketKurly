@@ -1,0 +1,42 @@
+/* 스타일 가이드(변수) */
+/* 
+    변수 생성 문법
+    :root { --변수명-목적:반복값;}
+
+    변수 사용(호출) 문법
+    선택자 {디자인 속성:var(--호출 변수명-목적);}
+*/
+/* 변수 목적 파일(var.css)에서는 변수 생성만 작성하기 */
+:root {
+    --font-size-xs: 0.75rem;     /* 12px */
+    --font-size-sm: 0.875rem;    /* 14px */
+    
+    --font-weight-semibold: 600;
+    
+    --line-height-md:1.5; /* 150% */
+
+    --color-primary:#9E00B7; /* 브랜드 색상 */
+    --color-warning:#D30000; /* 경고, 중요 */
+    --color-placeholder:#BBBBBB; /* 안내문 */
+    --bg-disable:#E9E9E9; /* 약관 배경, 비활성화 */
+    --bg-basic:#fff; /* 배경 */
+    --border-color:#DDDDDD; /* 테두리 */
+    
+    --width-container-sm:640px;
+    --width-container-md:1050px;
+    --width-title:150px; /* 가입정보 좌측 제목 */
+    --width-input:300px; 
+    --width-button:120px; /* 버튼 가로X세로 */
+    --width-button-lg:160px;
+    --hight-button:40px;
+
+    --radius-xs:6px; /* 모서리 반경 */
+    --radius-s:10px;
+
+    --spacing-xxs:6px; /* 간격 */
+    --spacing-xs:8px;
+    --spacing-s:10px;
+    --spacing-sm:15px;
+    --spacing-md:20px;
+    --spacing-lg:34px;
+}
